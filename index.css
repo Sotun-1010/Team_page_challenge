@@ -1,0 +1,180 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=PT+Serif:wght@400;700&family=Poppins:wght@400;500;600;700&display=swap');
+/*font-family: 'Montserrat', sans-serif;
+font-family: 'Poppins', sans-serif;
+font-family: 'PT Serif', serif; */
+
+*, *::after, *::before {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    padding: 6.875rem 13.5rem 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-family: 'Poppins', sans-serif;
+}
+
+header {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 215px;
+    margin-bottom: 96px;
+}
+
+header .create-crew h2 {
+    font-family: 'PT Serif', serif;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 48px;
+    letter-spacing: -4.5%;
+    word-spacing: -3px;
+    width: 300px;
+}
+
+header .who-we-are {
+    font-family: 'Poppins', sans-serif;
+}
+
+header .who-we-are h3 {
+    font-weight: 600;
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+header .who-we-are p {
+    font-size: 18px;
+    font-weight: 400;
+    width: 373px;
+}
+
+
+main {
+    display: grid;
+    grid-template-columns: repeat(3, 320px);
+}
+
+.image-group1, .image-group2, .image-group3, .image-group4, .image-group5, .image-group6 {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex;
+    margin-bottom: 2rem;
+}
+
+.aside {
+    transform: rotate(90deg);
+    display: flex;
+    position: relative;
+    left: -9rem;
+    top: 8.7rem;
+    height: 20px;
+    min-width: 300px;
+    font-family: 'PT Serif', serif;
+    font-size: 12px;
+    font-weight: 400;
+}
+
+.p {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    font-size: 18px;
+}
+
+.image-group2, .image-group5 {
+    margin-top: 80px;
+}
+
+footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 12px;
+}
+
+@media screen and (max-width: 1100px) {
+    body {
+        padding: 6.875rem 5rem 0rem;
+    }
+}
+
+@media screen and (max-width: 973px) {
+    body {
+        padding: 6.875rem 1rem 0rem;
+    }
+}
+
+@media screen and (max-width: 883px) {
+    
+    body {
+        padding: 0rem 5rem;
+    }
+    
+    header {
+        flex-direction: column;
+        gap: 38px;
+    }
+
+    main {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 40px;
+        min-width: 400px;
+    }
+
+    img {
+        width: 138px;
+        height: 209px;
+    }
+
+    .image-group2, .image-group5 {
+        margin-top: 0;
+    }
+    
+
+    .image-group1, .image-group2, .image-group3, .image-group4, .image-group5, .image-group6 {
+        width: 156px;
+        height: 237px;
+    }
+}
+
+@media screen and (max-width: 668px) {
+    
+    body {
+        padding: 0rem 5rem;
+    }
+    
+    header {
+        flex-direction: column;
+        gap: 38px;
+    }
+
+    main {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 40px;
+        min-width: 400px;
+    }
+
+    img {
+        width: 138px;
+        height: 209px;
+    }
+
+    .image-group2, .image-group5 {
+        margin-top: 0;
+    }
+    
+
+    .image-group1, .image-group2, .image-group3, .image-group4, .image-group5, .image-group6 {
+        width: 156px;
+        height: 237px;
+    }
+
+    .image-group2, .image-group4, .image-group6 {
+        margin-top: 50px;
+    }
+}
