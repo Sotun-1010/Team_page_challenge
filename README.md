@@ -8,11 +8,11 @@
 
 <div align="center">
   <h3>
-    <a href="https://{https://team-challenge-page-by-sotun.netlify.app/}">
+    <a href="https://{team-challenge-page-by-sotun.netlify.app/}">
       Demo
     </a>
     <span> | </span>
-    <a href="https://{https://team-challenge-page-by-sotun.netlify.app/}">
+    <a href="https://{team-challenge-page-by-sotun.netlify.app/}">
       Solution
     </a>
     <span> | </span>
