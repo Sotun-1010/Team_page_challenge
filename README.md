@@ -32,7 +32,7 @@
 
 ### Description
 <!-- A brief overview of the project -->
-![screenshot]()
+![screenshot](screenshot.png)
 Introduce your projects by taking a screenshot or a gif. Try to tell visitors a story about your project by answering:
 
 - Where can I see your demo? You can find it [here](https://team-challenge-page-by-sotun.netlify.app/)
