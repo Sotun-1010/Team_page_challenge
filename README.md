@@ -32,7 +32,14 @@
 
 ### Description
 <!-- A brief overview of the project -->
-This is a responsive team page. Responds as screen size changes
+![screenshot]()
+Introduce your projects by taking a screenshot or a gif. Try to tell visitors a story about your project by answering:
+
+- Where can I see your demo? You can find it [here](https://team-challenge-page-by-sotun.netlify.app/)
+- What was your experience? It was fun and exhilarating
+- What have you learned/improved? Improved my knowledge of responsiveness, flex box, positioning, and responsive input elements
+- Your wisdom? :) As always, keep pushing.
+
 
 ### Built With
 

@@ -32,7 +32,7 @@ header .create-crew h2 {
     line-height: 48px;
     letter-spacing: -4.5%;
     word-spacing: -3px;
-    width: 300px;
+    max-width: 300px;
 }
 
 header .who-we-are {
@@ -48,7 +48,7 @@ header .who-we-are h3 {
 header .who-we-are p {
     font-size: 18px;
     font-weight: 400;
-    width: 373px;
+    max-width: 373px;
 }
 
 
@@ -144,7 +144,7 @@ footer {
 @media screen and (max-width: 668px) {
     
     body {
-        padding: 0rem 5rem;
+        padding: 4rem 5rem;
     }
     
     header {
@@ -176,5 +176,32 @@ footer {
 
     .image-group2, .image-group4, .image-group6 {
         margin-top: 50px;
+    }
+}
+
+@media screen and (max-width: 441px) {
+    body {
+        padding: 4rem 1rem ;
+    }
+
+    img {
+        width: 100px;
+        height: 150px;
+    }
+
+    main {
+        gap: 0px;
+        min-width: 350px;
+        justify-content: center;
+    }
+}
+
+@media screen and (max-width: 318px) {
+    main {
+        justify-content: start;
+    }
+
+    .image-group1, .image-group2, .image-group3, .image-group4, .image-group5, .image-group6 {
+        width: 130px;
     }
 }
